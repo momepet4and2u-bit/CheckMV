@@ -1,0 +1,5 @@
+C:\Users\CGARZAJ\Documents\GitHub\BBMailer\BBMAILERBACK\BBMailerBack\BBMailer.Core\obj\Debug\net10.0\BBMailer.Core.csproj.AssemblyReference.cache
+C:\Users\CGARZAJ\Documents\GitHub\BBMailer\BBMAILERBACK\BBMailerBack\BBMailer.Core\obj\Debug\net10.0\BBMailer.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CGARZAJ\Documents\GitHub\BBMailer\BBMAILERBACK\BBMailerBack\BBMailer.Core\obj\Debug\net10.0\BBMailer.Core.AssemblyInfoInputs.cache
+C:\Users\CGARZAJ\Documents\GitHub\BBMailer\BBMAILERBACK\BBMailerBack\BBMailer.Core\obj\Debug\net10.0\BBMailer.Core.AssemblyInfo.cs
+C:\Users\CGARZAJ\Documents\GitHub\BBMailer\BBMAILERBACK\BBMailerBack\BBMailer.Core\obj\Debug\net10.0\BBMailer.Core.csproj.CoreCompileInputs.cache

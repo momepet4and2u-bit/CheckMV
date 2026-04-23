@@ -1,0 +1,17 @@
+﻿---------------------------------------
+Fecha : 2025-12-15T16:05:44.9799043-06:00
+Origen : UsuariosController
+Mensaje : System.InvalidOperationException: An ambient transaction has been detected. The ambient transaction needs to be completed before starting a new transaction on this connection.
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.EnsureNoAmbientOrEnlistedTransactions()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.EnsureNoTransactions()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(IsolationLevel isolationLevel, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransactionAsync(CancellationToken cancellationToken)
+   at MailVest.Datos.Repositorios.Autonticacion.RepositorioUsuarios.ActualizarUserAsync(UsuarioUpdateDto updateUser, String userModifica)
+   at MailVest.Aplicacion.Usuarios.AdministradorUsuarios.ActualizarUsuarioAsync(UsuarioUpdateDto updateUser, String userModifica)
+   at MailVest.Back.Controllers.UsuarioController.UpdateUser(Int32 id, UsuarioUpdateDto updateUser) in C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest\Controllers\UsuarioController.cs:line 79
+Detalle : 
+Usuario : CGARZAJ
+EndPoint : /MailVest/users/updateUser/7
+ClientInfo : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Correlation : 40000053-000e-ff00-b63f-84710c7967bb
+

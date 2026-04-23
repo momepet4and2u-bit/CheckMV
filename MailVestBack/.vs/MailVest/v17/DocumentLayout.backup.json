@@ -1,0 +1,344 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{876311F6-4F01-4ED8-77F9-DCF08454D5EC}|MailVest.Aplicacion\\MailVest.Aplicacion.csproj|c:\\users\\cgarzaj\\documents\\github\\mailvest\\mailvestback\\mailvestback\\mailvest.aplicacion\\autenticacion\\administradorautenticacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{876311F6-4F01-4ED8-77F9-DCF08454D5EC}|MailVest.Aplicacion\\MailVest.Aplicacion.csproj|solutionrelative:mailvest.aplicacion\\autenticacion\\administradorautenticacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A21F2678-3FC7-6D56-E9FB-82E834544DC6}|MailVest.Datos\\MailVest.Datos.csproj|c:\\users\\cgarzaj\\documents\\github\\mailvest\\mailvestback\\mailvestback\\mailvest.datos\\repositorios\\repositorioautenticacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A21F2678-3FC7-6D56-E9FB-82E834544DC6}|MailVest.Datos\\MailVest.Datos.csproj|solutionrelative:mailvest.datos\\repositorios\\repositorioautenticacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD951FE1-6B34-3FAE-6DC8-C7E25ADB5BB9}|MailVest\\MailVest.Back.csproj|c:\\users\\cgarzaj\\documents\\github\\mailvest\\mailvestback\\mailvestback\\mailvest\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD951FE1-6B34-3FAE-6DC8-C7E25ADB5BB9}|MailVest\\MailVest.Back.csproj|solutionrelative:mailvest\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A21F2678-3FC7-6D56-E9FB-82E834544DC6}|MailVest.Datos\\MailVest.Datos.csproj|c:\\users\\cgarzaj\\documents\\github\\mailvest\\mailvestback\\mailvestback\\mailvest.datos\\contexto\\bbmailerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A21F2678-3FC7-6D56-E9FB-82E834544DC6}|MailVest.Datos\\MailVest.Datos.csproj|solutionrelative:mailvest.datos\\contexto\\bbmailerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A21F2678-3FC7-6D56-E9FB-82E834544DC6}|MailVest.Datos\\MailVest.Datos.csproj|c:\\users\\cgarzaj\\documents\\github\\mailvest\\mailvestback\\mailvestback\\mailvest.datos\\repositorios\\irepositorioautenticacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A21F2678-3FC7-6D56-E9FB-82E834544DC6}|MailVest.Datos\\MailVest.Datos.csproj|solutionrelative:mailvest.datos\\repositorios\\irepositorioautenticacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83135B45-9E7B-2FD4-EA27-C0CCDB369745}|MailVest.Entidades\\MailVest.Entidades.csproj|c:\\users\\cgarzaj\\documents\\github\\mailvest\\mailvestback\\mailvestback\\mailvest.entidades\\dominio\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83135B45-9E7B-2FD4-EA27-C0CCDB369745}|MailVest.Entidades\\MailVest.Entidades.csproj|solutionrelative:mailvest.entidades\\dominio\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83135B45-9E7B-2FD4-EA27-C0CCDB369745}|MailVest.Entidades\\MailVest.Entidades.csproj|c:\\users\\cgarzaj\\documents\\github\\mailvest\\mailvestback\\mailvestback\\mailvest.entidades\\modelo\\catsubmodulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83135B45-9E7B-2FD4-EA27-C0CCDB369745}|MailVest.Entidades\\MailVest.Entidades.csproj|solutionrelative:mailvest.entidades\\modelo\\catsubmodulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83135B45-9E7B-2FD4-EA27-C0CCDB369745}|MailVest.Entidades\\MailVest.Entidades.csproj|c:\\users\\cgarzaj\\documents\\github\\mailvest\\mailvestback\\mailvestback\\mailvest.entidades\\dominio\\permisosusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83135B45-9E7B-2FD4-EA27-C0CCDB369745}|MailVest.Entidades\\MailVest.Entidades.csproj|solutionrelative:mailvest.entidades\\dominio\\permisosusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83135B45-9E7B-2FD4-EA27-C0CCDB369745}|MailVest.Entidades\\MailVest.Entidades.csproj|c:\\users\\cgarzaj\\documents\\github\\mailvest\\mailvestback\\mailvestback\\mailvest.entidades\\modelo\\relsubmoduloxrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83135B45-9E7B-2FD4-EA27-C0CCDB369745}|MailVest.Entidades\\MailVest.Entidades.csproj|solutionrelative:mailvest.entidades\\modelo\\relsubmoduloxrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83135B45-9E7B-2FD4-EA27-C0CCDB369745}|MailVest.Entidades\\MailVest.Entidades.csproj|c:\\users\\cgarzaj\\documents\\github\\mailvest\\mailvestback\\mailvestback\\mailvest.entidades\\modelo\\relopcionxrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83135B45-9E7B-2FD4-EA27-C0CCDB369745}|MailVest.Entidades\\MailVest.Entidades.csproj|solutionrelative:mailvest.entidades\\modelo\\relopcionxrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83135B45-9E7B-2FD4-EA27-C0CCDB369745}|MailVest.Entidades\\MailVest.Entidades.csproj|c:\\users\\cgarzaj\\documents\\github\\mailvest\\mailvestback\\mailvestback\\mailvest.entidades\\modelo\\catopcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83135B45-9E7B-2FD4-EA27-C0CCDB369745}|MailVest.Entidades\\MailVest.Entidades.csproj|solutionrelative:mailvest.entidades\\modelo\\catopcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83135B45-9E7B-2FD4-EA27-C0CCDB369745}|MailVest.Entidades\\MailVest.Entidades.csproj|c:\\users\\cgarzaj\\documents\\github\\mailvest\\mailvestback\\mailvestback\\mailvest.entidades\\modelo\\relrolesxusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83135B45-9E7B-2FD4-EA27-C0CCDB369745}|MailVest.Entidades\\MailVest.Entidades.csproj|solutionrelative:mailvest.entidades\\modelo\\relrolesxusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83135B45-9E7B-2FD4-EA27-C0CCDB369745}|MailVest.Entidades\\MailVest.Entidades.csproj|c:\\users\\cgarzaj\\documents\\github\\mailvest\\mailvestback\\mailvestback\\mailvest.entidades\\modelo\\catroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83135B45-9E7B-2FD4-EA27-C0CCDB369745}|MailVest.Entidades\\MailVest.Entidades.csproj|solutionrelative:mailvest.entidades\\modelo\\catroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD951FE1-6B34-3FAE-6DC8-C7E25ADB5BB9}|MailVest\\MailVest.Back.csproj|c:\\users\\cgarzaj\\documents\\github\\mailvest\\mailvestback\\mailvestback\\mailvest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD951FE1-6B34-3FAE-6DC8-C7E25ADB5BB9}|MailVest\\MailVest.Back.csproj|solutionrelative:mailvest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD951FE1-6B34-3FAE-6DC8-C7E25ADB5BB9}|MailVest\\MailVest.Back.csproj|c:\\users\\cgarzaj\\documents\\github\\mailvest\\mailvestback\\mailvestback\\mailvest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CD951FE1-6B34-3FAE-6DC8-C7E25ADB5BB9}|MailVest\\MailVest.Back.csproj|solutionrelative:mailvest\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{876311F6-4F01-4ED8-77F9-DCF08454D5EC}|MailVest.Aplicacion\\MailVest.Aplicacion.csproj|c:\\users\\cgarzaj\\documents\\github\\mailvest\\mailvestback\\mailvestback\\mailvest.aplicacion\\autenticacion\\iadministradorautenticacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{876311F6-4F01-4ED8-77F9-DCF08454D5EC}|MailVest.Aplicacion\\MailVest.Aplicacion.csproj|solutionrelative:mailvest.aplicacion\\autenticacion\\iadministradorautenticacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 928,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdministradorAutenticacion.cs",
+              "DocumentMoniker": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Aplicacion\\Autenticacion\\AdministradorAutenticacion.cs",
+              "RelativeDocumentMoniker": "MailVest.Aplicacion\\Autenticacion\\AdministradorAutenticacion.cs",
+              "ToolTip": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Aplicacion\\Autenticacion\\AdministradorAutenticacion.cs",
+              "RelativeToolTip": "MailVest.Aplicacion\\Autenticacion\\AdministradorAutenticacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T20:23:05.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PermisosUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Entidades\\Dominio\\PermisosUsuario.cs",
+              "RelativeDocumentMoniker": "MailVest.Entidades\\Dominio\\PermisosUsuario.cs",
+              "ToolTip": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Entidades\\Dominio\\PermisosUsuario.cs",
+              "RelativeToolTip": "MailVest.Entidades\\Dominio\\PermisosUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T20:31:05.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CatSubModulo.cs",
+              "DocumentMoniker": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Entidades\\Modelo\\CatSubModulo.cs",
+              "RelativeDocumentMoniker": "MailVest.Entidades\\Modelo\\CatSubModulo.cs",
+              "ToolTip": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Entidades\\Modelo\\CatSubModulo.cs",
+              "RelativeToolTip": "MailVest.Entidades\\Modelo\\CatSubModulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T20:33:30.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "MailVest\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "MailVest\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwCkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T17:15:06.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RelSubModuloxRol.cs",
+              "DocumentMoniker": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Entidades\\Modelo\\RelSubModuloxRol.cs",
+              "RelativeDocumentMoniker": "MailVest.Entidades\\Modelo\\RelSubModuloxRol.cs",
+              "ToolTip": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Entidades\\Modelo\\RelSubModuloxRol.cs",
+              "RelativeToolTip": "MailVest.Entidades\\Modelo\\RelSubModuloxRol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T20:42:39.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CatOpcion.cs",
+              "DocumentMoniker": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Entidades\\Modelo\\CatOpcion.cs",
+              "RelativeDocumentMoniker": "MailVest.Entidades\\Modelo\\CatOpcion.cs",
+              "ToolTip": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Entidades\\Modelo\\CatOpcion.cs",
+              "RelativeToolTip": "MailVest.Entidades\\Modelo\\CatOpcion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T20:35:14.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RelOpcionxRol.cs",
+              "DocumentMoniker": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Entidades\\Modelo\\RelOpcionxRol.cs",
+              "RelativeDocumentMoniker": "MailVest.Entidades\\Modelo\\RelOpcionxRol.cs",
+              "ToolTip": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Entidades\\Modelo\\RelOpcionxRol.cs",
+              "RelativeToolTip": "MailVest.Entidades\\Modelo\\RelOpcionxRol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T20:39:15.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RelRolesxUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Entidades\\Modelo\\RelRolesxUsuario.cs",
+              "RelativeDocumentMoniker": "MailVest.Entidades\\Modelo\\RelRolesxUsuario.cs",
+              "ToolTip": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Entidades\\Modelo\\RelRolesxUsuario.cs",
+              "RelativeToolTip": "MailVest.Entidades\\Modelo\\RelRolesxUsuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T20:14:40.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CatRoles.cs",
+              "DocumentMoniker": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Entidades\\Modelo\\CatRoles.cs",
+              "RelativeDocumentMoniker": "MailVest.Entidades\\Modelo\\CatRoles.cs",
+              "ToolTip": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Entidades\\Modelo\\CatRoles.cs",
+              "RelativeToolTip": "MailVest.Entidades\\Modelo\\CatRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T20:05:48.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest\\Program.cs",
+              "RelativeDocumentMoniker": "MailVest\\Program.cs",
+              "ToolTip": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest\\Program.cs",
+              "RelativeToolTip": "MailVest\\Program.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T17:21:13.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest\\appsettings.json",
+              "RelativeDocumentMoniker": "MailVest\\appsettings.json",
+              "ToolTip": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest\\appsettings.json",
+              "RelativeToolTip": "MailVest\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-26T18:28:37.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IAdministradorAutenticacion.cs",
+              "DocumentMoniker": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Aplicacion\\Autenticacion\\IAdministradorAutenticacion.cs",
+              "RelativeDocumentMoniker": "MailVest.Aplicacion\\Autenticacion\\IAdministradorAutenticacion.cs",
+              "ToolTip": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Aplicacion\\Autenticacion\\IAdministradorAutenticacion.cs",
+              "RelativeToolTip": "MailVest.Aplicacion\\Autenticacion\\IAdministradorAutenticacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T17:07:41.917Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 928,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BBMailerDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Datos\\Contexto\\BBMailerDbContext.cs",
+              "RelativeDocumentMoniker": "MailVest.Datos\\Contexto\\BBMailerDbContext.cs",
+              "ToolTip": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Datos\\Contexto\\BBMailerDbContext.cs",
+              "RelativeToolTip": "MailVest.Datos\\Contexto\\BBMailerDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T21:21:46.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioDto.cs",
+              "DocumentMoniker": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Entidades\\Dominio\\UsuarioDto.cs",
+              "RelativeDocumentMoniker": "MailVest.Entidades\\Dominio\\UsuarioDto.cs",
+              "ToolTip": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Entidades\\Dominio\\UsuarioDto.cs",
+              "RelativeToolTip": "MailVest.Entidades\\Dominio\\UsuarioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T20:28:20.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRepositorioAutenticacion.cs",
+              "DocumentMoniker": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Datos\\Repositorios\\IRepositorioAutenticacion.cs",
+              "RelativeDocumentMoniker": "MailVest.Datos\\Repositorios\\IRepositorioAutenticacion.cs",
+              "ToolTip": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Datos\\Repositorios\\IRepositorioAutenticacion.cs",
+              "RelativeToolTip": "MailVest.Datos\\Repositorios\\IRepositorioAutenticacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T20:22:48.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RepositorioAutenticacion.cs",
+              "DocumentMoniker": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Datos\\Repositorios\\RepositorioAutenticacion.cs",
+              "RelativeDocumentMoniker": "MailVest.Datos\\Repositorios\\RepositorioAutenticacion.cs",
+              "ToolTip": "C:\\Users\\CGARZAJ\\Documents\\GitHub\\MailVest\\MAILVESTBACK\\MailVestBack\\MailVest.Datos\\Repositorios\\RepositorioAutenticacion.cs",
+              "RelativeToolTip": "MailVest.Datos\\Repositorios\\RepositorioAutenticacion.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwDYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T17:11:35.988Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

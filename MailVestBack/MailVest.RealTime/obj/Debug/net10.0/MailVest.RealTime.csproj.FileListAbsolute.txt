@@ -1,0 +1,12 @@
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.RealTime\bin\Debug\net10.0\MailVest.RealTime.deps.json
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.RealTime\bin\Debug\net10.0\MailVest.RealTime.dll
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.RealTime\bin\Debug\net10.0\MailVest.RealTime.pdb
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.RealTime\obj\Debug\net10.0\MailVest.RealTime.csproj.AssemblyReference.cache
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.RealTime\obj\Debug\net10.0\MailVest.RealTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.RealTime\obj\Debug\net10.0\MailVest.RealTime.AssemblyInfoInputs.cache
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.RealTime\obj\Debug\net10.0\MailVest.RealTime.AssemblyInfo.cs
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.RealTime\obj\Debug\net10.0\MailVest.RealTime.csproj.CoreCompileInputs.cache
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.RealTime\obj\Debug\net10.0\MailVest.RealTime.dll
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.RealTime\obj\Debug\net10.0\refint\MailVest.RealTime.dll
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.RealTime\obj\Debug\net10.0\MailVest.RealTime.pdb
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.RealTime\obj\Debug\net10.0\ref\MailVest.RealTime.dll

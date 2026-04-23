@@ -1,0 +1,17 @@
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\Mantis.Comun\bin\Debug\net10.0\MailVest.Comun.deps.json
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\Mantis.Comun\bin\Debug\net10.0\MailVest.Comun.dll
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\Mantis.Comun\bin\Debug\net10.0\MailVest.Comun.pdb
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\Mantis.Comun\bin\Debug\net10.0\MailVest.Encrypt.dll
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\Mantis.Comun\bin\Debug\net10.0\MailVest.Entidades.dll
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\Mantis.Comun\bin\Debug\net10.0\MailVest.Encrypt.pdb
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\Mantis.Comun\bin\Debug\net10.0\MailVest.Entidades.pdb
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\Mantis.Comun\obj\Debug\net10.0\MailVest.Comun.csproj.AssemblyReference.cache
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\Mantis.Comun\obj\Debug\net10.0\MailVest.Comun.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\Mantis.Comun\obj\Debug\net10.0\MailVest.Comun.AssemblyInfoInputs.cache
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\Mantis.Comun\obj\Debug\net10.0\MailVest.Comun.AssemblyInfo.cs
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\Mantis.Comun\obj\Debug\net10.0\MailVest.Comun.csproj.CoreCompileInputs.cache
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\Mantis.Comun\obj\Debug\net10.0\MailVest.530B077D.Up2Date
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\Mantis.Comun\obj\Debug\net10.0\MailVest.Comun.dll
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\Mantis.Comun\obj\Debug\net10.0\refint\MailVest.Comun.dll
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\Mantis.Comun\obj\Debug\net10.0\MailVest.Comun.pdb
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\Mantis.Comun\obj\Debug\net10.0\ref\MailVest.Comun.dll

@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <Content Include="Templates\EmailShell.html">
+		  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Negotiate" Version="10.0.0" />
+    <PackageReference Include="Scrutor" Version="7.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.0.0" />
+    <PackageReference Include="System.Text.Json" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MailVest.Aplicacion\MailVest.Aplicacion.csproj" />
+    <ProjectReference Include="..\MailVest.Datos\MailVest.Datos.csproj" />
+    <ProjectReference Include="..\MailVest.Encrypt\MailVest.Encrypt.csproj" />
+    <ProjectReference Include="..\MailVest.Entidades\MailVest.Entidades.csproj" />
+    <ProjectReference Include="..\MailVest.RealTime\MailVest.RealTime.csproj" />
+    <ProjectReference Include="..\Mantis.Comun\MailVest.Comun.csproj" />
+  </ItemGroup>
+
+</Project>

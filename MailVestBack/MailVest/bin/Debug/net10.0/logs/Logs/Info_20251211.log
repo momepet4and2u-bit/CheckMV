@@ -1,0 +1,15 @@
+﻿---------------------------------------
+Fecha : 2025-12-11T16:43:20.0166367-06:00
+Origen : LoginController
+Mensaje : System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   at System.Security.Claims.Claim..ctor(String type, String value)
+   at MailVest.Aplicacion.Seguridad.TokenService.GenerateToken(UserAuth usuario) in C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Aplicacion\Seguridad\TokenService.cs:line 27
+   at MailVestBack.Controllers.LoginController.GetCurrentUser() in C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest\Controllers\LoginController.cs:line 55
+Detalle : 
+Usuario : WNTMAIL\CGARZAJ
+EndPoint : /MailVest/auth/me
+ClientInfo : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+Correlation : 40000009-0008-fe00-b63f-84710c7967bb
+

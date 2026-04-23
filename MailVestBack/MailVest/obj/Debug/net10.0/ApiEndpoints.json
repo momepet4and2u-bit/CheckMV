@@ -1,0 +1,742 @@
+[
+  {
+    "ContainingType": "MailVest.Back.Controllers.DirectAprobadoresController",
+    "Method": "GetAprobadoresAsync",
+    "RelativePath": "MailVest/aprobadores/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MailVest.Entidades.Dominio.DirectorioAprobadores.DirectAprobDto, MailVest.Entidades, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.DirectAprobadoresController",
+    "Method": "AgregarAprobador",
+    "RelativePath": "MailVest/aprobadores/newAprob",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newParam",
+        "Type": "MailVest.Entidades.Dominio.DirectorioAprobadores.DirectAprobDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.DirectAprobadoresController",
+    "Method": "UpdateProv",
+    "RelativePath": "MailVest/aprobadores/updateAprob/{idAprob}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idAprob",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateProv",
+        "Type": "MailVest.Entidades.Dominio.DirectorioAprobadores.DirectAprobDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailVestBack.Controllers.LoginController",
+    "Method": "GetCurrentUser",
+    "RelativePath": "MailVest/auth/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.CorreosDraftController",
+    "Method": "GetById",
+    "RelativePath": "MailVest/correosDraft/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MailVest.Entidades.Dominio.EmailDraft.EmailDraftDetailDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.CorreosDraftController",
+    "Method": "LockEditAsync",
+    "RelativePath": "MailVest/correosDraft/{id}/lockEdit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.CorreosDraftController",
+    "Method": "UnlockEdit",
+    "RelativePath": "MailVest/correosDraft/{id}/unlockEdit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.CorreosDraftController",
+    "Method": "GetAll",
+    "RelativePath": "MailVest/correosDraft/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MailVest.Entidades.Dominio.EmailDraft.EmailDraftTableDto, MailVest.Entidades, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.CorreosDraftController",
+    "Method": "CrearCorreosDraft",
+    "RelativePath": "MailVest/correosDraft/newDraft",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newDraft",
+        "Type": "MailVest.Entidades.Dominio.EmailDraft.EmailDraftCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.ParametrosController",
+    "Method": "GetSpecificParam",
+    "RelativePath": "MailVest/parametros/{parametroSearch}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parametroSearch",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.ParametrosController",
+    "Method": "GetParametros",
+    "RelativePath": "MailVest/parametros/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MailVest.Entidades.Dominio.Parametros.ParametrosDto, MailVest.Entidades, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.ParametrosController",
+    "Method": "ObtenerLenguajes",
+    "RelativePath": "MailVest/parametros/languajes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.ParametrosController",
+    "Method": "GetLeng",
+    "RelativePath": "MailVest/parametros/leng/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lengSearch",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.ParametrosController",
+    "Method": "AddLeng",
+    "RelativePath": "MailVest/parametros/newLeng",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newLeng",
+        "Type": "MailVest.Entidades.Dominio.Parametros.Lenguaje.LengDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.ParametrosController",
+    "Method": "AddParam",
+    "RelativePath": "MailVest/parametros/newParam",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newParam",
+        "Type": "MailVest.Entidades.Dominio.Parametros.ParametrosDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.ParametrosController",
+    "Method": "UpdateParam",
+    "RelativePath": "MailVest/parametros/updateParam/{idParam}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idParam",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateParam",
+        "Type": "MailVest.Entidades.Dominio.Parametros.ParametrosDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.PlantillasController",
+    "Method": "GetById",
+    "RelativePath": "MailVest/plantillas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.PlantillasController",
+    "Method": "LockEditAsync",
+    "RelativePath": "MailVest/plantillas/{id}/lockEdit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.PlantillasController",
+    "Method": "PreviewById",
+    "RelativePath": "MailVest/plantillas/{id}/preview",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "lang",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.PlantillasController",
+    "Method": "UnlockEdit",
+    "RelativePath": "MailVest/plantillas/{id}/unlockEdit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.PlantillasController",
+    "Method": "GetAll",
+    "RelativePath": "MailVest/plantillas/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MailVest.Entidades.Dominio.EmailTemplates.EmailTemplatesDto, MailVest.Entidades, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.PlantillasController",
+    "Method": "CrearPlantillaAsync",
+    "RelativePath": "MailVest/plantillas/createPlantilla",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ClickUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "imagenES",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "imagenEN",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ValidoDesde",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ValidoHasta",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Creado",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "ES.Subject",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ES.Html",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EN.Subject",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EN.Html",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ArchivoAd",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.PlantillasController",
+    "Method": "DeletePlantillaAsync",
+    "RelativePath": "MailVest/plantillas/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.PlantillasController",
+    "Method": "Preview",
+    "RelativePath": "MailVest/plantillas/preview",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "req",
+        "Type": "MailVest.Entidades.Dominio.EmailTemplates.TemplatePreviewRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.PlantillasController",
+    "Method": "GetPreviewShell",
+    "RelativePath": "MailVest/plantillas/previewShell",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.PlantillasController",
+    "Method": "UpdatePlantilla",
+    "RelativePath": "MailVest/plantillas/updatePlantilla/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ClickUrl",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "imagenES",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "imagenEN",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "ValidoDesde",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ValidoHasta",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Creado",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "ES.Subject",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ES.Html",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EN.Subject",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "EN.Html",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ArchivoAd",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=10.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.RolesController",
+    "Method": "GetRoles",
+    "RelativePath": "MailVest/roles/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MailVest.Entidades.Dominio.Rol.RolDto, MailVest.Entidades, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.RolesController",
+    "Method": "AddRol",
+    "RelativePath": "MailVest/roles/createRol",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newRol",
+        "Type": "MailVest.Entidades.Dominio.Rol.RolCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.RolesController",
+    "Method": "ObtenerPermisoRol",
+    "RelativePath": "MailVest/roles/rolByPermisos/{idRol}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idRol",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.RolesController",
+    "Method": "UpdatePermisosRol",
+    "RelativePath": "MailVest/roles/updatePermisos/{idRol}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idRol",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newPermisos",
+        "Type": "MailVest.Entidades.Dominio.Rol.UpdatePermisosRol",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.RolesController",
+    "Method": "UpdateRol",
+    "RelativePath": "MailVest/roles/updateRol/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateRol",
+        "Type": "MailVest.Entidades.Dominio.Rol.RolDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.UsuarioController",
+    "Method": "AddUser",
+    "RelativePath": "MailVest/users/addUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newUser",
+        "Type": "MailVest.Entidades.Dominio.Usuarios.UsuarioCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.UsuarioController",
+    "Method": "GetAllUsers",
+    "RelativePath": "MailVest/users/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MailVest.Entidades.Dominio.Usuarios.UsuariosDto, MailVest.Entidades, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MailVest.Back.Controllers.UsuarioController",
+    "Method": "UpdateUser",
+    "RelativePath": "MailVest/users/updateUser/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateUser",
+        "Type": "MailVest.Entidades.Dominio.Usuarios.UsuarioUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

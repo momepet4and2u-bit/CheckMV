@@ -1,0 +1,1989 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "MailVest.Back",
+    "version": "1.0"
+  },
+  "paths": {
+    "/MailVest/correosDraft/newDraft": {
+      "post": {
+        "tags": [
+          "CorreosDraft"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmailDraftCreateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmailDraftCreateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmailDraftCreateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MailVest/correosDraft/all": {
+      "get": {
+        "tags": [
+          "CorreosDraft"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EmailDraftTableDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EmailDraftTableDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EmailDraftTableDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/MailVest/correosDraft/{id}": {
+      "get": {
+        "tags": [
+          "CorreosDraft"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/EmailDraftDetailDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EmailDraftDetailDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EmailDraftDetailDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/MailVest/correosDraft/{id}/lockEdit": {
+      "post": {
+        "tags": [
+          "CorreosDraft"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MailVest/correosDraft/{id}/unlockEdit": {
+      "post": {
+        "tags": [
+          "CorreosDraft"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MailVest/aprobadores/all": {
+      "get": {
+        "tags": [
+          "DirectAprobadores"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DirectAprobDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DirectAprobDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DirectAprobDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/MailVest/aprobadores/newAprob": {
+      "post": {
+        "tags": [
+          "DirectAprobadores"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DirectAprobDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DirectAprobDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DirectAprobDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MailVest/aprobadores/updateAprob/{idAprob}": {
+      "put": {
+        "tags": [
+          "DirectAprobadores"
+        ],
+        "parameters": [
+          {
+            "name": "idAprob",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DirectAprobDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DirectAprobDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DirectAprobDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MailVest/auth/me": {
+      "get": {
+        "tags": [
+          "Login"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MailVest/parametros/all": {
+      "get": {
+        "tags": [
+          "Parametros"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ParametrosDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ParametrosDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ParametrosDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/MailVest/parametros/{parametroSearch}": {
+      "get": {
+        "tags": [
+          "Parametros"
+        ],
+        "parameters": [
+          {
+            "name": "parametroSearch",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/MailVest/parametros/newParam": {
+      "post": {
+        "tags": [
+          "Parametros"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ParametrosDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ParametrosDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ParametrosDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MailVest/parametros/updateParam/{idParam}": {
+      "put": {
+        "tags": [
+          "Parametros"
+        ],
+        "parameters": [
+          {
+            "name": "idParam",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ParametrosDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ParametrosDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ParametrosDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MailVest/parametros/languajes": {
+      "get": {
+        "tags": [
+          "Parametros"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MailVest/parametros/leng/{id}": {
+      "get": {
+        "tags": [
+          "Parametros"
+        ],
+        "parameters": [
+          {
+            "name": "lengSearch",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MailVest/parametros/newLeng": {
+      "post": {
+        "tags": [
+          "Parametros"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LengDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LengDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LengDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MailVest/plantillas/all": {
+      "get": {
+        "tags": [
+          "Plantillas"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EmailTemplatesDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EmailTemplatesDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/EmailTemplatesDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/MailVest/plantillas/{id}": {
+      "get": {
+        "tags": [
+          "Plantillas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MailVest/plantillas/{id}/lockEdit": {
+      "post": {
+        "tags": [
+          "Plantillas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MailVest/plantillas/{id}/unlockEdit": {
+      "post": {
+        "tags": [
+          "Plantillas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MailVest/plantillas/createPlantilla": {
+      "post": {
+        "tags": [
+          "Plantillas"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Name": {
+                    "type": "string"
+                  },
+                  "ClickUrl": {
+                    "type": "string"
+                  },
+                  "imagenES": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "imagenEN": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "ValidoDesde": {
+                    "type": "string"
+                  },
+                  "ValidoHasta": {
+                    "type": "string"
+                  },
+                  "Creado": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "ES.Subject": {
+                    "type": "string"
+                  },
+                  "ES.Html": {
+                    "type": "string"
+                  },
+                  "EN.Subject": {
+                    "type": "string"
+                  },
+                  "EN.Html": {
+                    "type": "string"
+                  },
+                  "ArchivoAd": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "Name": {
+                  "style": "form"
+                },
+                "ClickUrl": {
+                  "style": "form"
+                },
+                "imagenES": {
+                  "style": "form"
+                },
+                "imagenEN": {
+                  "style": "form"
+                },
+                "ValidoDesde": {
+                  "style": "form"
+                },
+                "ValidoHasta": {
+                  "style": "form"
+                },
+                "Creado": {
+                  "style": "form"
+                },
+                "ES.Subject": {
+                  "style": "form"
+                },
+                "ES.Html": {
+                  "style": "form"
+                },
+                "EN.Subject": {
+                  "style": "form"
+                },
+                "EN.Html": {
+                  "style": "form"
+                },
+                "ArchivoAd": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MailVest/plantillas/updatePlantilla/{id}": {
+      "put": {
+        "tags": [
+          "Plantillas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Id": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Name": {
+                    "type": "string"
+                  },
+                  "ClickUrl": {
+                    "type": "string"
+                  },
+                  "imagenES": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "imagenEN": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "ValidoDesde": {
+                    "type": "string"
+                  },
+                  "ValidoHasta": {
+                    "type": "string"
+                  },
+                  "Creado": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
+                  "ES.Subject": {
+                    "type": "string"
+                  },
+                  "ES.Html": {
+                    "type": "string"
+                  },
+                  "EN.Subject": {
+                    "type": "string"
+                  },
+                  "EN.Html": {
+                    "type": "string"
+                  },
+                  "ArchivoAd": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  }
+                }
+              },
+              "encoding": {
+                "Id": {
+                  "style": "form"
+                },
+                "Name": {
+                  "style": "form"
+                },
+                "ClickUrl": {
+                  "style": "form"
+                },
+                "imagenES": {
+                  "style": "form"
+                },
+                "imagenEN": {
+                  "style": "form"
+                },
+                "ValidoDesde": {
+                  "style": "form"
+                },
+                "ValidoHasta": {
+                  "style": "form"
+                },
+                "Creado": {
+                  "style": "form"
+                },
+                "ES.Subject": {
+                  "style": "form"
+                },
+                "ES.Html": {
+                  "style": "form"
+                },
+                "EN.Subject": {
+                  "style": "form"
+                },
+                "EN.Html": {
+                  "style": "form"
+                },
+                "ArchivoAd": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MailVest/plantillas/delete/{id}": {
+      "delete": {
+        "tags": [
+          "Plantillas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MailVest/plantillas/previewShell": {
+      "get": {
+        "tags": [
+          "Plantillas"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MailVest/plantillas/preview": {
+      "post": {
+        "tags": [
+          "Plantillas"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TemplatePreviewRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TemplatePreviewRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TemplatePreviewRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MailVest/plantillas/{id}/preview": {
+      "get": {
+        "tags": [
+          "Plantillas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "lang",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "default": "ES"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MailVest/roles/all": {
+      "get": {
+        "tags": [
+          "Roles"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/RolDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/RolDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/RolDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/MailVest/roles/updateRol/{id}": {
+      "put": {
+        "tags": [
+          "Roles"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RolDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RolDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RolDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MailVest/roles/createRol": {
+      "post": {
+        "tags": [
+          "Roles"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RolCreateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RolCreateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RolCreateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MailVest/roles/updatePermisos/{idRol}": {
+      "post": {
+        "tags": [
+          "Roles"
+        ],
+        "parameters": [
+          {
+            "name": "idRol",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePermisosRol"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePermisosRol"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdatePermisosRol"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MailVest/roles/rolByPermisos/{idRol}": {
+      "get": {
+        "tags": [
+          "Roles"
+        ],
+        "parameters": [
+          {
+            "name": "idRol",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/MailVest/users/all": {
+      "get": {
+        "tags": [
+          "Usuario"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UsuariosDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UsuariosDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/UsuariosDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/MailVest/users/updateUser/{id}": {
+      "put": {
+        "tags": [
+          "Usuario"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioUpdateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioUpdateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioUpdateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/MailVest/users/addUser": {
+      "post": {
+        "tags": [
+          "Usuario"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioCreateDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioCreateDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsuarioCreateDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AdditionalApproversDto": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Requerido": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Attachment": {
+        "type": "object",
+        "properties": {
+          "FileName": {
+            "type": "string",
+            "nullable": true
+          },
+          "RelativePath": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DirectAprobDto": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Usuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "Email": {
+            "type": "string",
+            "nullable": true
+          },
+          "UltimoUso": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "IsDefault": {
+            "type": "boolean"
+          },
+          "Estatus": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EmailDrafLangIcsDto": {
+        "type": "object",
+        "properties": {
+          "ES": {
+            "$ref": "#/components/schemas/EmailDraftICSDto"
+          },
+          "EN": {
+            "$ref": "#/components/schemas/EmailDraftICSDto"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EmailDraftApproverViewDto": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Usuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "Nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "Email": {
+            "type": "string",
+            "nullable": true
+          },
+          "Requerido": {
+            "type": "boolean"
+          },
+          "Adicional": {
+            "type": "boolean"
+          },
+          "Estatus": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "Comentario": {
+            "type": "string",
+            "nullable": true
+          },
+          "Fecha": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "IsCurrentUser": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EmailDraftCreateDto": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "TemplateId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "IcsStart": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "IcsEnd": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "Ics": {
+            "$ref": "#/components/schemas/EmailDrafLangIcsDto"
+          },
+          "AdditionalApproverIds": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AdditionalApproversDto"
+            },
+            "nullable": true
+          },
+          "RequiredApprovers": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EmailDraftDetailDto": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "TemplateId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "PlantillaNombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "Estatus": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Revision": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Creacion": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "Actualizado": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "CreadoPor": {
+            "type": "string",
+            "nullable": true
+          },
+          "IcsStart": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "IcsEnd": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "Ics": {
+            "$ref": "#/components/schemas/EmailDraftLangViewDto"
+          },
+          "Approvers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/EmailDraftApproverViewDto"
+            },
+            "nullable": true
+          },
+          "IsApprover": {
+            "type": "boolean"
+          },
+          "HasApproved": {
+            "type": "boolean"
+          },
+          "HasRejected": {
+            "type": "boolean"
+          },
+          "RequiredApprovers": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "RequiredApprovalsDone": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "HasRequiredRejection": {
+            "type": "boolean"
+          },
+          "ReadyToSend": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EmailDraftICSDto": {
+        "type": "object",
+        "properties": {
+          "Body": {
+            "type": "string",
+            "nullable": true
+          },
+          "FileName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EmailDraftIcsViewDto": {
+        "type": "object",
+        "properties": {
+          "Body": {
+            "type": "string",
+            "nullable": true
+          },
+          "FileName": {
+            "type": "string",
+            "nullable": true
+          },
+          "PathRelativo": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EmailDraftLangViewDto": {
+        "type": "object",
+        "properties": {
+          "ES": {
+            "$ref": "#/components/schemas/EmailDraftIcsViewDto"
+          },
+          "EN": {
+            "$ref": "#/components/schemas/EmailDraftIcsViewDto"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EmailDraftTableDto": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "TemplateId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "PlantillaNombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "Estatus": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Revision": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "CreadoPor": {
+            "type": "string",
+            "nullable": true
+          },
+          "Creacion": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "Actualizado": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "IsApprover": {
+            "type": "boolean"
+          },
+          "RequiredApprovers": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "RequiredApprovalsDone": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "HasRequiredRejection": {
+            "type": "boolean"
+          },
+          "AllRequiredApproved": {
+            "type": "boolean"
+          },
+          "ReadyToSend": {
+            "type": "boolean"
+          },
+          "EnEdicion": {
+            "type": "boolean"
+          },
+          "EnEdicionPor": {
+            "type": "string",
+            "nullable": true
+          },
+          "EnEdicionDesde": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "EdicionExpiro": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EmailTemplateLangDto": {
+        "type": "object",
+        "properties": {
+          "Subject": {
+            "type": "string",
+            "nullable": true
+          },
+          "Html": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EmailTemplatesDto": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "ClickUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "ImageUrlES": {
+            "type": "string",
+            "nullable": true
+          },
+          "ImageUrlEN": {
+            "type": "string",
+            "nullable": true
+          },
+          "Attachment": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Attachment"
+            },
+            "nullable": true
+          },
+          "ValidoDesde": {
+            "type": "string",
+            "nullable": true
+          },
+          "ValidoHasta": {
+            "type": "string",
+            "nullable": true
+          },
+          "Creado": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "ES": {
+            "$ref": "#/components/schemas/EmailTemplateLangDto"
+          },
+          "EN": {
+            "$ref": "#/components/schemas/EmailTemplateLangDto"
+          },
+          "Bloqueado": {
+            "type": "boolean"
+          },
+          "EnEdicion": {
+            "type": "boolean"
+          },
+          "EnEdicionPor": {
+            "type": "string",
+            "nullable": true
+          },
+          "EnEdicionDesde": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "EdicionExpiro": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LengDto": {
+        "type": "object",
+        "properties": {
+          "Code": {
+            "type": "string",
+            "nullable": true
+          },
+          "Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "IsDefault": {
+            "type": "boolean"
+          },
+          "Order": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ParametrosDto": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Parametro": {
+            "type": "string",
+            "nullable": true
+          },
+          "Descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "Valor": {
+            "type": "string",
+            "nullable": true
+          },
+          "Estatus": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "RolCreateDto": {
+        "type": "object",
+        "properties": {
+          "Nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "Descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "ColorFondo": {
+            "type": "string",
+            "nullable": true
+          },
+          "ColorTexto": {
+            "type": "string",
+            "nullable": true
+          },
+          "ColorBorde": {
+            "type": "string",
+            "nullable": true
+          },
+          "Permisos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RolDto": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "Estatus": {
+            "type": "boolean"
+          },
+          "ColorFondo": {
+            "type": "string",
+            "nullable": true
+          },
+          "ColorTexto": {
+            "type": "string",
+            "nullable": true
+          },
+          "ColorBorde": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TemplatePreviewRequestDto": {
+        "type": "object",
+        "properties": {
+          "Lang": {
+            "type": "string",
+            "nullable": true
+          },
+          "Title": {
+            "type": "string",
+            "nullable": true
+          },
+          "HtmlRaw": {
+            "type": "string",
+            "nullable": true
+          },
+          "ImageURL": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdatePermisosRol": {
+        "type": "object",
+        "properties": {
+          "Permisos": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UsuarioCreateDto": {
+        "required": [
+          "Email",
+          "IdRol",
+          "Nombre",
+          "Nomina",
+          "Puesto",
+          "Rol",
+          "Usuario"
+        ],
+        "type": "object",
+        "properties": {
+          "Usuario": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "Nombre": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "Email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "Puesto": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "Nomina": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "Activo": {
+            "type": "boolean"
+          },
+          "IdRol": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Rol": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UsuarioUpdateDto": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Usuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "Nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "Email": {
+            "type": "string",
+            "nullable": true
+          },
+          "Area": {
+            "type": "string",
+            "nullable": true
+          },
+          "Nomina": {
+            "type": "string",
+            "nullable": true
+          },
+          "Activo": {
+            "type": "boolean"
+          },
+          "IdRol": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Rol": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UsuariosDto": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Usuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "Nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "Email": {
+            "type": "string",
+            "nullable": true
+          },
+          "Activo": {
+            "type": "boolean"
+          },
+          "Puesto": {
+            "type": "string",
+            "nullable": true
+          },
+          "Nomina": {
+            "type": "string",
+            "nullable": true
+          },
+          "Rol": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "CorreosDraft"
+    },
+    {
+      "name": "DirectAprobadores"
+    },
+    {
+      "name": "Login"
+    },
+    {
+      "name": "Parametros"
+    },
+    {
+      "name": "Plantillas"
+    },
+    {
+      "name": "Roles"
+    },
+    {
+      "name": "Usuario"
+    }
+  ]
+}

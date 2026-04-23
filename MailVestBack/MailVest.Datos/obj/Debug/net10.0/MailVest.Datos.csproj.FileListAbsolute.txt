@@ -1,0 +1,42 @@
+C:\Users\CGARZAJ\Documents\GitHub\BBMailer\BBMAILERBACK\MailVestBack\MailVest.Datos\bin\Debug\net10.0\MailVest.Datos.deps.json
+C:\Users\CGARZAJ\Documents\GitHub\BBMailer\BBMAILERBACK\MailVestBack\MailVest.Datos\bin\Debug\net10.0\MailVest.Datos.runtimeconfig.json
+C:\Users\CGARZAJ\Documents\GitHub\BBMailer\BBMAILERBACK\MailVestBack\MailVest.Datos\bin\Debug\net10.0\MailVest.Datos.dll
+C:\Users\CGARZAJ\Documents\GitHub\BBMailer\BBMAILERBACK\MailVestBack\MailVest.Datos\bin\Debug\net10.0\MailVest.Datos.pdb
+C:\Users\CGARZAJ\Documents\GitHub\BBMailer\BBMAILERBACK\MailVestBack\MailVest.Datos\bin\Debug\net10.0\MailVest .Core.UoW.dll
+C:\Users\CGARZAJ\Documents\GitHub\BBMailer\BBMAILERBACK\MailVestBack\MailVest.Datos\bin\Debug\net10.0\MailVest.Entidades.dll
+C:\Users\CGARZAJ\Documents\GitHub\BBMailer\BBMAILERBACK\MailVestBack\MailVest.Datos\bin\Debug\net10.0\MailVest .Core.UoW.pdb
+C:\Users\CGARZAJ\Documents\GitHub\BBMailer\BBMAILERBACK\MailVestBack\MailVest.Datos\bin\Debug\net10.0\MailVest.Entidades.pdb
+C:\Users\CGARZAJ\Documents\GitHub\BBMailer\BBMAILERBACK\MailVestBack\MailVest.Datos\obj\Debug\net10.0\MailVest.Datos.csproj.AssemblyReference.cache
+C:\Users\CGARZAJ\Documents\GitHub\BBMailer\BBMAILERBACK\MailVestBack\MailVest.Datos\obj\Debug\net10.0\MailVest.Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CGARZAJ\Documents\GitHub\BBMailer\BBMAILERBACK\MailVestBack\MailVest.Datos\obj\Debug\net10.0\MailVest.Datos.AssemblyInfoInputs.cache
+C:\Users\CGARZAJ\Documents\GitHub\BBMailer\BBMAILERBACK\MailVestBack\MailVest.Datos\obj\Debug\net10.0\MailVest.Datos.AssemblyInfo.cs
+C:\Users\CGARZAJ\Documents\GitHub\BBMailer\BBMAILERBACK\MailVestBack\MailVest.Datos\obj\Debug\net10.0\MailVest.Datos.csproj.CoreCompileInputs.cache
+C:\Users\CGARZAJ\Documents\GitHub\BBMailer\BBMAILERBACK\MailVestBack\MailVest.Datos\obj\Debug\net10.0\MailVest.5A54D6DF.Up2Date
+C:\Users\CGARZAJ\Documents\GitHub\BBMailer\BBMAILERBACK\MailVestBack\MailVest.Datos\obj\Debug\net10.0\MailVest.Datos.dll
+C:\Users\CGARZAJ\Documents\GitHub\BBMailer\BBMAILERBACK\MailVestBack\MailVest.Datos\obj\Debug\net10.0\refint\MailVest.Datos.dll
+C:\Users\CGARZAJ\Documents\GitHub\BBMailer\BBMAILERBACK\MailVestBack\MailVest.Datos\obj\Debug\net10.0\MailVest.Datos.pdb
+C:\Users\CGARZAJ\Documents\GitHub\BBMailer\BBMAILERBACK\MailVestBack\MailVest.Datos\obj\Debug\net10.0\MailVest.Datos.genruntimeconfig.cache
+C:\Users\CGARZAJ\Documents\GitHub\BBMailer\BBMAILERBACK\MailVestBack\MailVest.Datos\obj\Debug\net10.0\ref\MailVest.Datos.dll
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Datos\bin\Debug\net10.0\MailVest.Datos.deps.json
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Datos\bin\Debug\net10.0\MailVest.Datos.runtimeconfig.json
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Datos\bin\Debug\net10.0\MailVest.Datos.dll
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Datos\bin\Debug\net10.0\MailVest.Datos.pdb
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Datos\bin\Debug\net10.0\MailVest .Core.UoW.dll
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Datos\bin\Debug\net10.0\MailVest.Comun.dll
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Datos\bin\Debug\net10.0\MailVest.Encrypt.dll
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Datos\bin\Debug\net10.0\MailVest.Entidades.dll
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Datos\bin\Debug\net10.0\MailVest .Core.UoW.pdb
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Datos\bin\Debug\net10.0\MailVest.Encrypt.pdb
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Datos\bin\Debug\net10.0\MailVest.Entidades.pdb
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Datos\bin\Debug\net10.0\MailVest.Comun.pdb
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Datos\obj\Debug\net10.0\MailVest.Datos.csproj.AssemblyReference.cache
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Datos\obj\Debug\net10.0\MailVest.Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Datos\obj\Debug\net10.0\MailVest.Datos.AssemblyInfoInputs.cache
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Datos\obj\Debug\net10.0\MailVest.Datos.AssemblyInfo.cs
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Datos\obj\Debug\net10.0\MailVest.Datos.csproj.CoreCompileInputs.cache
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Datos\obj\Debug\net10.0\MailVest.5A54D6DF.Up2Date
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Datos\obj\Debug\net10.0\MailVest.Datos.dll
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Datos\obj\Debug\net10.0\refint\MailVest.Datos.dll
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Datos\obj\Debug\net10.0\MailVest.Datos.pdb
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Datos\obj\Debug\net10.0\MailVest.Datos.genruntimeconfig.cache
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Datos\obj\Debug\net10.0\ref\MailVest.Datos.dll

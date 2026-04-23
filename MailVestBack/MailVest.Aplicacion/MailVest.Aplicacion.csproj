@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ical.Net" Version="5.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authorization" Version="10.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MailVest.Datos\MailVest.Datos.csproj" />
+    <ProjectReference Include="..\MailVest.Entidades\MailVest.Entidades.csproj" />
+    <ProjectReference Include="..\MailVest.RealTime\MailVest.RealTime.csproj" />
+    <ProjectReference Include="..\Mantis.Comun\MailVest.Comun.csproj" />
+  </ItemGroup>
+
+</Project>

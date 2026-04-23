@@ -1,0 +1,7 @@
+C:\Users\CGARZAJ\Documents\PublicacionMailVest\MailVest.LogTool.Gui.exe
+C:\Users\CGARZAJ\Documents\PublicacionMailVest\MailVest.LogTool.Gui.dll
+C:\Users\CGARZAJ\Documents\PublicacionMailVest\MailVest.LogTool.Gui.deps.json
+C:\Users\CGARZAJ\Documents\PublicacionMailVest\MailVest.LogTool.Gui.runtimeconfig.json
+C:\Users\CGARZAJ\Documents\PublicacionMailVest\MailVest.LogTool.Gui.pdb
+C:\Users\CGARZAJ\Documents\PublicacionMailVest\MailVest.Encrypt.dll
+C:\Users\CGARZAJ\Documents\PublicacionMailVest\MailVest.Encrypt.pdb

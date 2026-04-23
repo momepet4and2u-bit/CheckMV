@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "MailVest.LogTool.Gui/1.0.0": {
+        "dependencies": {
+          "MailVest.Encrypt": "1.0.0"
+        },
+        "runtime": {
+          "MailVest.LogTool.Gui.dll": {}
+        }
+      },
+      "MailVest.Encrypt/1.0.0": {
+        "runtime": {
+          "MailVest.Encrypt.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MailVest.LogTool.Gui/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MailVest.Encrypt/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

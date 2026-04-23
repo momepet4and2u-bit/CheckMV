@@ -1,0 +1,11 @@
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Encrypt\bin\Release\net10.0\MailVest.Encrypt.deps.json
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Encrypt\bin\Release\net10.0\MailVest.Encrypt.dll
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Encrypt\bin\Release\net10.0\MailVest.Encrypt.pdb
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Encrypt\obj\Release\net10.0\MailVest.Encrypt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Encrypt\obj\Release\net10.0\MailVest.Encrypt.AssemblyInfoInputs.cache
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Encrypt\obj\Release\net10.0\MailVest.Encrypt.AssemblyInfo.cs
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Encrypt\obj\Release\net10.0\MailVest.Encrypt.csproj.CoreCompileInputs.cache
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Encrypt\obj\Release\net10.0\MailVest.Encrypt.dll
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Encrypt\obj\Release\net10.0\refint\MailVest.Encrypt.dll
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Encrypt\obj\Release\net10.0\MailVest.Encrypt.pdb
+C:\Users\CGARZAJ\Documents\GitHub\MailVest\MAILVESTBACK\MailVestBack\MailVest.Encrypt\obj\Release\net10.0\ref\MailVest.Encrypt.dll
